@@ -53,4 +53,4 @@ This is a learning aid, not a network scanner or monitoring system. Results depe
 
 ## Additional networking example
 
-The [small-office network example](examples/small-office-network/README.md) includes a Packet Tracer topology, sample configurations, and screenshots. The Python tests do not validate the Packet Tracer lab.
+I built and tested the [small-office network lab](examples/small-office-network/README.md) in Cisco Packet Tracer, configuring a router, switch, IPv4 settings, and ping connectivity checks. The Python tests do not validate the Packet Tracer lab.
