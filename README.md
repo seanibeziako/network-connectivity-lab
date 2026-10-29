@@ -35,6 +35,10 @@ python3 -m unittest discover -s tests -v
 
 The tests start a temporary TCP listener on loopback and exercise DNS failure, a refused connection, and invalid input. No public hosts are contacted.
 
+## Quick local example
+
+Run `python3 examples/loopback_demo.py` to start a temporary local TCP listener, check that it accepts a connection, stop it, and check the resulting failure. The example uses only `127.0.0.1` and chooses an available local port automatically. It prints actual results from that run.
+
 ## Suggested exercise
 
 1. Start a local test service: `python3 -m http.server 8000 --bind 127.0.0.1`.
